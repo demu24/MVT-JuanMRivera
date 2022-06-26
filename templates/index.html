@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    {% for familiar in home %}
+        <b>Nombre:</b> {{familiar.nombre}}
+        <br>
+        <b>Cedula:</b> {{familiar.cedula}}
+        <br>
+        <b>Fecha do Nacimento: </b> {{familiar.fecha_nacimiento}}
+        <br>
+        <hr>
+
+    {% endfor %}
+
+</body>
+</html>
